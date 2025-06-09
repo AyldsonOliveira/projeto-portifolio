@@ -27,9 +27,7 @@ p {
      text-decoration: none;
  }
 
-img {
-    width: 300px;
-}
+
 
 .titulo-destaque {
    color: #22d4fd;
@@ -84,4 +82,8 @@ img {
     padding:  21.5px 0;
     color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
+}
+
+.minha__imagem {
+    width: 300px;
 }
