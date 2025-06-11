@@ -6,7 +6,7 @@
 }
 
  body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -34,7 +34,7 @@ p {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    margin: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,6 +73,9 @@ p {
 
 .apresentacao__links__link {
     /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
     border: 2px solid #22d4fd;
     width: 378px;
     text-align: center;
@@ -84,6 +87,20 @@ p {
     font-family: "Montserrat", sans-serif;
 }
 
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
 .minha__imagem {
     width: 300px;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22d4fd;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
